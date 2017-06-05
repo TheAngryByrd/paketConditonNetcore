@@ -1,0 +1,19 @@
+{
+  "author": "Jimmy Byrd",
+  "classifications": [ "Scaffold" ],
+  "name": "MiniScaffold",
+  "tags": {
+    "language": "F#"
+  },
+  "identity": "MiniScaffold",
+  "shortName": "mini-scaffold",
+  "sourceName": "MyLib",
+  // This allows using the `-n` option to create a new directory
+  "preferNameDirectory": true,
+  "symbols":{
+      "githubUsername": {
+          "type": "parameter",
+          "replaces":"MyGithubUsername"
+      }
+  }
+}

@@ -1,0 +1,4 @@
+group core
+FSharp.Core
+group full
+FSharp.Core

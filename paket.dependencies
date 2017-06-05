@@ -1,0 +1,16 @@
+source https://www.nuget.org/api/v2
+
+group full
+    condition: FULL
+    framework: net45
+    source https://www.nuget.org/api/v2
+    nuget FSharp.Core 4.0.0.1
+group core
+    condition: CORE
+    framework: netstandard1.6
+    source https://www.nuget.org/api/v2
+    nuget FSharp.Core 4.1.17
+
+group Build
+    source https://www.nuget.org/api/v2
+    nuget FAKE
